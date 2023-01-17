@@ -1,0 +1,153 @@
+table {
+    border: 10px rgb(149, 140, 224);
+    width: 95vw;
+    /* height: 40vh; */
+    margin: auto;
+    background-color: rgb(14, 14, 14);
+    
+    border-radius: 2vh;
+    border-collapse: collapse;
+    empty-cells: hide;
+   
+  }
+
+  table:nth-child(2) {
+    height: 10vh;
+  }
+
+  #p1 {
+    color: #000000;
+    size: 10px;
+
+  }
+
+
+  #p2 {
+    color: black;
+    size: 10px;
+
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    color: rgb(131, 11, 11);
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    animation: myanimation 10s infinite;
+   
+  }
+
+  @keyframes myanimation  {
+    0% {background-color: rgb(82, 143, 145);}
+    25%{background-color:rgb(230, 230, 159);}
+    50%{background-color:rgb(101, 150, 101);}
+    60%{background-color:rgb(227, 126, 162);}
+    75%{background-color:rgb(231, 177, 177);}
+    90%{background-color:rgb(187, 114, 230);}
+   
+    100% {background-color: rgb(244, 126, 126);}
+    
+    
+  }
+
+
+
+
+p{margin: 0;
+padding: 0;}
+  #submit_Div {
+    width: 100vw;
+    height: 24vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -2vh;
+    margin-bottom: 2vh;
+  }
+
+  #inp_Name,
+  #inp_Id {
+    width: 40vh;
+    height: 6vh;
+    border: 3px solid rgb(95, 101, 198);
+    border-radius: 1vh;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 0px 1px 1px black;
+    text-align: center;
+    background-color: white;
+    color: rgb(128, 198, 235);
+  }
+#inp_Name{margin-bottom: 5px;}
+  td {
+    
+    background-color: rgb(24, 35, 25);
+    color: yellowgreen;
+    border-radius: 1vh;
+  }
+
+  #inp_Id {
+    margin-top: 3vh;
+  }
+
+  #check {
+    width: 20vh;
+    border-radius: 1vh;
+    background-color: skyblue;
+    color:blueviolet;
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    letter-spacing: 0.4vh;
+    text-shadow: 0px 2px 2px black;
+    height: 6vh;
+    margin-top: 4px;
+  }
+
+  .new{
+   
+    font-size: 60px;
+    padding-top: 20px;
+    padding: 20px;
+    margin: 0;
+
+    background: -webkit-linear-gradient(#1b8ce3, #d14e4e, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+  #result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+
+  ::-webkit-input-placeholder {
+    color: greenyellow;
+    
+
+  }
+  #check:hover{
+    background-color:green;
+    color:gold;
+  }
+  #result p{padding-bottom: 10px;}
+  /* .ind{display: none;} */
+  
+
+  @media(min-width: 615px){
+table{
+width: 583px;
+/* height: 40vh; */
+
+}
+}
